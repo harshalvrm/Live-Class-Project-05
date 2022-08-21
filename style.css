@@ -1,0 +1,113 @@
+*
+{
+  margin: 0;
+  border: 0;
+}
+
+.container
+{ 
+  display: grid;
+  background-color: #000;    
+  
+}
+
+.navbar{
+  overflow: hidden;
+  margin-left: 80px;
+  height: 80px;
+}
+
+.navbar li{
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  list-style-type: none;
+  vertical-align: baseline;
+  margin: 20px;
+}
+
+li:first-child
+{
+  border-left: 1px solid #bbb; 
+  margin-left: 40px;
+}
+
+.button-small {
+  border: none;
+  background-color: #f500f5;
+  height:40px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  position: absolute; 
+  color: #ffffff;
+  right: 80px;
+  top: 18px;  
+}
+
+.logo
+{
+  float: left;
+  margin: 10px 6px;
+   
+}
+
+.grow-list{
+  color: #fff;
+  font-family: poppins;
+  text-align:center;
+}
+
+.dropdwn{ 
+  position: absolute;
+  left: 360px;
+  top: 35px;
+}
+
+
+/* DROPDOWN MENU */
+/* Put the below code in head section of HTML file */
+/* <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+
+Put the below section wherever we need the dropdown icon menu
+<iconify-icon icon="fa-solid:angle-down" style="color: white;"></iconify-icon> */
+
+
+/* Hero Section */
+.hero
+{
+  height: 90vh;
+  padding: 0 80px;
+  background: url(./assets/bg.png) no-repeat center center / cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-heading{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 56px;
+  padding-top: 200px;
+}
+
+.hero-description {
+  font-size: 20px;
+  margin: 5px 0 50px 0;
+  text-align: center;
+  color:#fff;
+  
+}
+
+.button-large {
+  background-color: #da58da;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 450px;
+}
